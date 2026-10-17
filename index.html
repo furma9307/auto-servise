@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurboDrive — Премиальный автотехцентр</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Хедер -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="logo">TURBO<span>DRIVE</span></a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+          <li><a href="services.html" class="nav__link">Услуги</a></li>
+          <li><a href="calculator.html" class="nav__link">Калькулятор</a></li>
+          <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="calculator.html" class="btn btn--neon header__btn">Онлайн-расчет</a>
+      <button class="burger" id="burgerBtn">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero с фоновым видео/картинкой и неоном -->
+    <section class="hero-dark">
+      <div class="container hero-dark__container">
+        <div class="hero-dark__badge">🔴 Запись на сегодня открыта</div>
+        <h1 class="hero-dark__title">Инженерный подход к ремонту вашего авто</h1>
+        <p class="hero-dark__subtitle">Диагностика на дилерском оборудовании, прозрачные цены и гарантированное качество работы.</p>
+        
+        <!-- Быстрая статистика -->
+        <div class="hero-dark__stats">
+          <div class="stat-item">
+            <span class="stat-item__num">12+</span>
+            <span class="stat-item__text">лет опыта</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__num">24/7</span>
+            <span class="stat-item__text">эвакуация</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__num">100%</span>
+            <span class="stat-item__text">гарантия</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bento Grid (Асимметричная современная сетка) -->
+    <section class="bento-section">
+      <div class="container">
+        <h2 class="section-title section-title--dark">Наши преимущества</h2>
+        
+        <div class="bento-grid">
+          <!-- Большой главный блок -->
+          <div class="bento-card bento-card--large">
+            <div class="bento-card__content">
+              <span class="bento-card__tag">Оборудование</span>
+              <h3>Дилерские сканеры и стенды 2026 года</h3>
+              <p>Находим неисправности с точностью до 99.8% в день обращения без «угадываний» за ваш счет.</p>
+            </div>
+            <div class="bento-card__icon">🖥️</div>
+          </div>
+
+          <!-- Высокий блок -->
+          <div class="bento-card bento-card--tall">
+            <div class="bento-card__tag">Запчасти</div>
+            <h3>Собственный склад</h3>
+            <p>Более 5 000 оригинальных деталей и качественных аналогов в наличии. Не нужно ждать неделями.</p>
+            <div class="bento-card__icon-huge">📦</div>
+          </div>
+
+          <!-- Маленький блок 1 -->
+          <div class="bento-card">
+            <div class="bento-card__tag">Комфорт</div>
+            <h3>Lounge-зона</h3>
+            <p>Кофе, Wi-Fi и видеотрансляция из ремзоны на планшете.</p>
+          </div>
+
+          <!-- Маленький блок 2 -->
+          <div class="bento-card">
+            <div class="bento-card__tag">Честность</div>
+            <h3>Видеоотчеты</h3>
+            <p>Присылаем фото и видео всех найденных дефектов в Telegram.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
